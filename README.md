@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Site Arkhada feito com React (v 0.1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto pessoal feito com React-app Typescript.
 
 ## Available Scripts
 
