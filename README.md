@@ -1,4 +1,4 @@
-# Site Arkhada feito com React (v 0.1)
+# Site Arkhada (v 0.1)
 
 Projeto pessoal feito com React-app Typescript.
 
