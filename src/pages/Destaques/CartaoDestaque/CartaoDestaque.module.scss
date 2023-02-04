@@ -1,0 +1,87 @@
+.container_destaque {
+    display: flex;
+    margin: 0 0 0 0;
+    justify-content: space-between;
+}
+
+.botao_destaque, .cartao_botao_destaque {
+    margin: 0 10px 0 10px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 14px center;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    height: 43px;
+    border-radius: 100px;
+    border-style: none;
+    font-size: 0.9rem;
+}
+
+.cartao_destaque {
+    width: 100%;
+    margin: 0 0 0 0;
+    background: #202020;
+    border-radius: 40px 40px 0 0;
+}
+
+.cartao_imagem_destaque {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+.cartao_conteudo {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.cartao_conteudo_texto {
+    display: flex;
+    flex-direction: column;
+    color: #a88e5c;
+}
+
+.texto_destaque {
+    font-size: 1rem;
+    margin: 0 0 0 0;
+}
+
+.cartao_titulo_destaque {
+    color: #e7e9eb;
+    margin: 5px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.cartao_info_destaque {
+    color: #e7e9eb;
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+}
+
+.cartao_perfil_destaque {
+    color: #e7e9eb;
+    margin: 0 0 5px 0;
+    font-size: 0.75rem;
+}
+
+.cartao_conteudo_preco {
+    display: flex;
+}
+
+.cartao_preco_destaque {
+    color: #e7e9eb;
+    padding: 0 10px 0 0;
+    font-size: 2.5rem ;
+    align-self: center;
+}
+
+.cartao_botao_destaque {
+    margin: 0 0 0 0;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 29px center;
+    background-color: #0563aa;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}

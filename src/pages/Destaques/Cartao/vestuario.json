@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titulo": "Full Black",
+    "foto": "/static/media/posing1.7e3ab0275e272b76e722.png",
+    "vendidos": 9,
+    "estoque": 1,
+    "preco": 74.99,
+    "tag": "Calça",
+    "cores": "+ 17"
+  },
+  {
+    "id": 2,
+    "titulo": "Full Black",
+    "foto": "/static/media/posing2.816ee7c74edf87666c4d.png",
+    "vendidos": 4,
+    "estoque": 5,
+    "preco": 54.99,
+    "tag": "Camisa",
+    "cores": "+ 13"
+  },
+  {
+    "id": 3,
+    "titulo": "Full Black",
+    "foto": "/static/media/posing3.439d1daf321dca588890.png",
+    "vendidos": 7,
+    "estoque": 2,
+    "preco": 59.99,
+    "tag": "Gorro",
+    "cores": "+ 15"
+  }
+]

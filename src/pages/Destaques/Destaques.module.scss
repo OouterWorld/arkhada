@@ -1,0 +1,177 @@
+.destaque_pagina {
+    background: #0e0e0e;
+    padding: 1.5rem 15rem 1.5rem 15rem;
+}
+
+.cabeca {
+    display: flex;
+    margin: 0 0 1.5rem 0;
+}
+
+.container_destaque, .container_cartoes, .container_cartoes2 {
+    display: flex;
+    margin: 0 0 0 0;
+    justify-content: space-between;
+}
+
+.container_cartoes {
+    margin: 0 0 1rem 0;
+}
+
+.container_cartoes2 {
+    margin: 0 0 1.5rem 0;
+}
+
+.botao_destaque, .cartao_botao_destaque, .cartao_botao {
+    margin: 0 10px 0 10px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 14px center;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    height: 43px;
+    border-radius: 100px;
+    border-style: none;
+    font-size: 0.9rem;
+}
+
+.cartao_destaque, .cartao {
+    width: 100%;
+    margin: 0 0 0 0;
+    background: #202020;
+    border-radius: 40px 40px 0 0;
+}
+
+.cartao {
+    width: 25%;
+    margin: 0 15px 0 15px;
+}
+
+.cartao_imagem_destaque, .cartao_imagem {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+.cartao_conteudo {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.cartao_conteudo_texto {
+    display: flex;
+    flex-direction: column;
+    color: #a88e5c;
+}
+
+.texto_destaque {
+    font-size: 1rem;
+    margin: 0 0 0 0;
+}
+
+.cartao_titulo_destaque, .cartao_titulo {
+    color: #e7e9eb;
+    margin: 5px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.cartao_info_destaque, .cartao_info {
+    color: #e7e9eb;
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+}
+
+.cartao_info {
+    font-size: .75rem;
+}
+
+.cartao_perfil_destaque {
+    color: #e7e9eb;
+    margin: 0 0 5px 0;
+    font-size: 0.75rem;
+}
+
+.cartao_conteudo_preco {
+    display: flex;
+}
+
+.cartao_preco_destaque, .cartao_preco {
+    color: #e7e9eb;
+    padding: 0 10px 0 0;
+    font-size: 2.5rem ;
+    align-self: center;
+}
+
+.cartao_preco {
+    font-size: 1rem ;
+}
+
+.cartao_botao_destaque, .cartao_botao {
+    margin: 0 0 0 0;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 29px center;
+    background-color: #0563aa;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.cartao_botao {
+    margin: 0 0 0 0;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 18px center;
+    background-color: #0563aa;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banners {
+    padding: 0 0 0.5rem 0;
+}
+
+.banners_img {
+    width: 700px;
+    height: 200px;
+}
+
+.gg_crown {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 19px;
+    height: 12px;
+    border: 2px solid;
+    border-top-color: transparent;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-top: 4px
+}
+.gg_crown::after,
+.gg-crown::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(-45deg);
+    top: -4px
+}
+.gg_crown::before {
+    border-top-left-radius: 2px;
+    left: -1px
+}
+.gg_crown::after {
+    border-bottom-right-radius: 2px;
+    right: -1px
+}
