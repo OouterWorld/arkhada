@@ -1,4 +1,4 @@
-import React from 'react'
+//import foto from "../../../../images/posing1.png"
 
 export default function Card({ roupas, styles }) {
   return (
@@ -9,7 +9,7 @@ export default function Card({ roupas, styles }) {
             <div key={item.id} className={styles.cartao}>
               <img
                 className={styles.cartao_imagem}
-                src={item.foto}
+                src={item.imagem}
                 alt={item.titulo}
               />
               <div className={styles.cartao_conteudo}>

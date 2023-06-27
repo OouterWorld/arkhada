@@ -1,22 +1,25 @@
-import React from 'react'
 import styles from "./Banner.module.scss"
-import banner from '../../../images/banner.png';
+// preciso criar um array para isso
 
 export default function Banner() {
+
+  const banner = [
+  '/banner1.jpg',
+  '/banner2.jpg',
+  '/banner3.jpg',
+  '/banner4.jpg'
+  ];
+
   return (
-    <article className={styles.container_banner}>
-      <div className={styles.banners}>
-        <a><img src={banner} className={styles.banners_img}></img></a>
-      </div>
-      <div className={styles.banners}>
-        <a><img src={banner} className={styles.banners_img}></img></a>
-      </div>
-      <div className={styles.banners}>
-        <a><img src={banner} className={styles.banners_img}></img></a>
-      </div>
-      <div className={styles.banners}>
-        <a><img src={banner} className={styles.banners_img}></img></a>
-      </div>
-    </article>
+    <lu className={styles.container_banner}>
+      {banner.map((item) => {
+          return (
+            <li className={styles.banners}>
+              <a href="#"><img src={item} className={styles.banners_img}></img></a>
+            </li>
+          )
+        }
+      )}
+      </lu>
   )
 }

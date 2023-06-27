@@ -1,14 +1,18 @@
-.banners {
-    padding: 0 0 0.5rem 0;
-}
-
-.banners_img {
-    width: 700px;
-    height: 200px;
-}
-
 .container_banner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.container_banner li {
+    padding: 0 0 0.5rem 0;
+}
+
+.container_banner li:last-of-type {
+    padding: 0 0 0 0;
+}
+
+.banners_img {
+    width: 36vw;
+    height: 10.25vw;
+    border-radius: 12.5px;
 }

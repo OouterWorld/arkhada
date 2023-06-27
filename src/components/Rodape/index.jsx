@@ -9,8 +9,8 @@ export default function Rodape() {
             <div className={styles.rodape_container}>
                 <ul className={styles.rodape_lista}>
                     <p className={styles.rodape_lista_titulo}>Grupo arkhada</p>
-                    <li className={styles.rodape_botao_site}><a>Beijo da Serpente</a></li>
-                    <li className={styles.rodape_botao_site}><a>Canto da Cobra</a></li>
+                    <li className={styles.rodape_botao_site}><a>zz</a></li>
+                    <li className={styles.rodape_botao_site}><a>zz</a></li>
                     <li className={styles.rodape_botao}><a>zz</a></li>
                     <li className={styles.rodape_botao}><a>zz</a></li>
                 </ul>
