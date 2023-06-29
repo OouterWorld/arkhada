@@ -1,12 +1,59 @@
-.container_cartoes {
+.container__cards {
     display: flex;
     margin: 0 0 1rem 0;
     justify-content: center;
 }
 
-.cartao_botao {
+.card {
+    width: 100%;
+    margin: 0 15px 0 15px;
+    background: #202020;
+    border-radius: 40px 40px 0 0;
+}
+
+.card__image {
+    width: 20vw;
+    border-radius: 40px 40px 0 0;
+}
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card__content__text {
+    display: flex;
+    flex-direction: column;
+    color: #a88e5c;
+}
+
+.card__title {
+    color: #e7e9eb;
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+}
+
+.card__info {
+    color: #e7e9eb;
     margin: 0 0 0 0;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 16px center;
+    font-size: 1rem;
+}
+
+.card__content__price {
+    display: flex;
+}
+
+.card__price {
+    color: #e7e9eb;
+    padding: 0 10px 0 0;
+    font-size: 1rem;
+    align-self: center;
+}
+
+.card__button {
+    margin: 0 0 0 0;
     background-color: #0563aa;
     display: flex;
     justify-content: center;
@@ -16,62 +63,60 @@
     border-radius: 10px;
     border-style: none;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
-.cartao {
-    width: 100%;
-    margin: 0 15px 0 15px;
-    background: #202020;
-    border-radius: 40px 40px 0 0;
+.card__button i {
+    top: 40%
 }
 
-.cartao_imagem {
-    width: 20vw;
-    border-radius: 40px 40px 0 0;
+.gg_shopping_cart {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1.25));
+    width: 20px;
+    height: 90px;
+    background:
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat -1px 6px/18px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 6px 14px/11px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 0 2px/4px 2px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 12px 17px/4px 4px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 6px 17px/4px 4px
 }
 
-.cartao_conteudo {
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    padding: 10px;
+.gg_shopping_cart::after,
+.gg_shopping_cart::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 2px;
+    height: 14px;
+    background: currentColor;
+    top: 2px;
+    left: 4px;
+    transform: skew(12deg)
 }
 
-.cartao_conteudo_texto {
-    display: flex;
-    flex-direction: column;
-    color: #a88e5c;
+.gg_shopping_cart::after {
+    height: 10px;
+    top: 6px;
+    left: 16px;
+    transform: skew(-12deg)
 }
 
-.cartao_titulo {
-    color: #e7e9eb;
-    margin: 0 0 5px 0;
-    font-size: 1rem;
-}
-
-.cartao_info {
-    color: #e7e9eb;
-    margin: 0 0 0 0;
-    font-size: 1rem;
-}
-
-.cartao_conteudo_preco {
-    display: flex;
-}
-
-.cartao_preco {
-    color: #e7e9eb;
-    padding: 0 10px 0 0;
-    font-size: 1rem;
-    align-self: center;
-}
-
-@media screen and (max-width: 1839px) {
-    .cartao_conteudo {
+@media screen and (max-width: 1439px) {
+    .card__content {
         flex-direction: column
     }
 
-    .cartao_conteudo_preco {
+    .card__content__price {
         display: flex;
         justify-content: space-between;
     }

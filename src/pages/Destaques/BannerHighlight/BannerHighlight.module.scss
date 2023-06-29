@@ -1,4 +1,23 @@
-.Banner__highlight {
-  height: 40vw;
-  margin: 0 0 1rem 0;
+.banner__highlight {
+  height: 41vw;
+  margin: 0 0 0rem 0;
+}
+
+.banner__text {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 17.5vw;
+  bottom: 9vw;
+  padding: 10px;
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #ffffff
+}
+
+.banner__text:hover {
+  scale: 1.15;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+  color: #000000
 }

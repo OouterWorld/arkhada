@@ -1,17 +1,17 @@
-.container_banner {
+.container__banner {
     display: flex;
     flex-direction: column;
 }
 
-.container_banner li {
+.container__banner li {
     padding: 0 0 0.5rem 0;
 }
 
-.container_banner li:last-of-type {
+.container__banner li:last-of-type {
     padding: 0 0 0 0;
 }
 
-.banners_img {
+.banners__img {
     width: 36vw;
     height: 10.25vw;
     border-radius: 12.5px;

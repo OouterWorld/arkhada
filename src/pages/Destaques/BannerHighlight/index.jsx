@@ -3,7 +3,10 @@ import styles from "./BannerHighlight.module.scss"
 export default function BannerHighlight() {
   return (
     <article>
-      <a><img src="/bannerhighlight.jpg" className={styles.Banner__highlight}></img></a>
+      <a href="#">
+        <p className={styles.banner__text}>Comprar</p>
+        <img src="/bannerhighlight.jpg" className={styles.banner__highlight}></img>
+      </a>
     </article>
   )
 }

@@ -2,7 +2,7 @@
 import styles from './Destaques.module.scss'
 import BannerHighlight from "./BannerHighlight/index"
 import Cartao from "./Cartao/index";
-import CartaoDestaque from "./CartaoDestaque/index";
+import CardsHighlight from "./CardsHighlight/index";
 import Banner from "./Banner/index"
 
 export default function Destaques() {
@@ -11,7 +11,7 @@ export default function Destaques() {
       <BannerHighlight />
       <p className={styles.dentro}>Fique por dentro</p>
       <div className={styles.cabeca}>
-        <CartaoDestaque />
+        <CardsHighlight />
         <Banner />
       </div>
       <div className={styles.corpo}>

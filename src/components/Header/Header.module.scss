@@ -8,17 +8,22 @@
 .header__container {
     width: 100%;
     padding: 0.75rem 0 0.75rem 0;
-    justify-content: space-between; // posso trocar por space-around
+    //justify-content: space-between; // posso trocar por space-around
     //padding: 0 3.5rem 0 3.5rem // remover se colocar space-around
 }
 
-.header__container_sub {
+.header__container__sub {
     padding: 0 3.5rem 0 3.5rem;
 }
 
 .header__container,
-.header__container_sub {
+.header__container__sub {
     border-bottom: 1px solid #ffffff
+}
+
+.header__align {
+    width: 33.3%;
+    align-self: center;
 }
 
 .header__text {
@@ -31,7 +36,7 @@
 .header__logo {
     justify-content: center;
     margin: 0 3.5rem 0 3.5rem;
-    font-size: 1.45rem;
+    font-size: 1.75rem;
     color: #f7bf2a; // #a88e5c
     text-transform: uppercase
 }
@@ -40,28 +45,13 @@
     font-size: 24px
 }
 
-.container__search {
-    width: 100%;
-}
-
-.header__search {
-    border-radius: 10px;
-    width: 100%;
-    height: 2.5rem;
-    border: 1px solid #18191b;
-    padding: 9px 4px 9px 40px;
-    background: #18191b url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center
-}
-
 .header__list {
+    justify-content: flex-end;
     list-style-type: none;
     text-transform: uppercase;
-    padding: 0 3.5rem 0 3.5rem
-}
-
-.header__search,
-.header__list {
-    color: #ffffff
+    padding: 0 3.5rem 0 3.5rem;
+    color: #ffffff;
+    margin: 0;
 }
 
 .header__list li {
@@ -80,7 +70,6 @@
 
 .header__container,
 .header__logo,
-.container__search,
 .header__list,
 .header__list li,
 .header__favourites,
@@ -101,12 +90,20 @@
 }
 
 .header__categorys li {
-    padding: 0 0.75rem 0 0.75rem
+    padding: 0 0.75rem 0 0.75rem;
+    align-items: center;
+}
+
+.header__categorys li a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .selected {
-    font-style: italic;
-    text-decoration: underline
+    text-decoration: underline;
+    scale: 1.25;
+    transition: all 0.3s ease
 }
 
 @media screen and (min-width: 1439px) {}
