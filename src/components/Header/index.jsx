@@ -16,7 +16,7 @@ export default function Header() {
     <nav className={styles.header}>
       <div className={styles.header__container}>
         <div className={styles.header__align}>
-          <p className={styles.header__text}>A cobra se pega pela cabeça</p>
+          <p className={styles.header__text}>Entregamos em todo o Brasil!</p>
         </div>
         <div className={styles.header__align}>
           <h1 className={styles.header__logo}>Arkhada</h1>
